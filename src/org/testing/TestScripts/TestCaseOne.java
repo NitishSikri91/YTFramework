@@ -14,6 +14,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.testing.Pages.Login;
+import org.testing.assertions.Assertt;
 import org.testing.base.Base;
 import org.testing.utilities.CaptureLogs;
 import org.testing.utilities.ScreenShotCapture;
@@ -44,11 +45,22 @@ public class TestCaseOne extends Base{
 	ScreenShotCapture.ScreenCapture(driver, "C:\\Users\\Nitish\\Desktop\\Workspace\\Outpuit\\ScreenShots\\TC1.png");
 	CaptureLogs.Takelogs("TestCaseOne", "Screnshot Captured");
 
-	String expecte_URL = "https://www.youtube.com/feed/trending";
-	Assert.assertEquals(driver.getCurrentUrl(), expecte_URL);
-	CaptureLogs.Takelogs("TestCaseOne", "Assetion Passed                                  sxmmmkkkkl");
+	String expected_URL = "https://www.youtube.com/feed/trending";
+	Assert.assertEquals(driver.getCurrentUrl(), expected_URL);
+	CaptureLogs.Takelogs("TestCaseOne", "Assetion Passed with Hard Assertion");
+
 	
+	Assert.assertTrue(Assertt.AssertCompString(driver.getCurrentUrl(),expected_URL));
+	CaptureLogs.Takelogs("TestCaseOne", "Assetion Passed with soft Assertion");
 	
+	Thread.sleep(3000);
+	driver.findElement(By.xpath("//button[@id='avatar-btn']")).click();
+	String email_id = driver.findElement(By.xpath("//yt-formatted-string[@id='email']")).getText();
+	ScreenShotCapture.ScreenCapture(driver, "C:\\Users\\Nitish\\Desktop\\Workspace\\Outpuit\\ScreenShots\\TC2.png");
+	
+	String expected_user="dummyonebeingcreated@gmail.com";
+	Assert.assertTrue(Assertt.AssertCompString(email_id, expected_user));
+	CaptureLogs.Takelogs("TestCaseOne", "Email id matches");
 	
 	}
 	

@@ -8,3 +8,19 @@
 2019-07-30 02:38:28 INFO  [TestCaseOne] Login Success 
 2019-07-30 02:38:30 INFO  [TestCaseOne] Clicked on Trending 
 2019-07-30 02:38:34 INFO  [TestCaseOne] Screnshot Captured 
+2019-08-01 00:22:37 INFO  [TestCaseOne] Login Success 
+2019-08-01 00:22:40 INFO  [TestCaseOne] Clicked on Trending 
+2019-08-01 00:22:44 INFO  [TestCaseOne] Screnshot Captured 
+2019-08-01 00:22:44 INFO  [TestCaseOne] Assetion Passed with Hard Assertion 
+2019-08-01 00:22:44 INFO  [TestCaseOne] Assetion Passed with soft Assertion 
+2019-08-01 00:32:31 INFO  [TestCaseOne] Login Success 
+2019-08-01 00:32:34 INFO  [TestCaseOne] Clicked on Trending 
+2019-08-01 00:32:37 INFO  [TestCaseOne] Screnshot Captured 
+2019-08-01 00:32:38 INFO  [TestCaseOne] Assetion Passed with Hard Assertion 
+2019-08-01 00:32:38 INFO  [TestCaseOne] Assetion Passed with soft Assertion 
+2019-08-01 00:35:50 INFO  [TestCaseOne] Login Success 
+2019-08-01 00:35:52 INFO  [TestCaseOne] Clicked on Trending 
+2019-08-01 00:35:56 INFO  [TestCaseOne] Screnshot Captured 
+2019-08-01 00:35:56 INFO  [TestCaseOne] Assetion Passed with Hard Assertion 
+2019-08-01 00:35:56 INFO  [TestCaseOne] Assetion Passed with soft Assertion 
+2019-08-01 00:36:01 INFO  [TestCaseOne] Email id matches 
