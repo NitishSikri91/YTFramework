@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
-  </test> <!-- Test -->
+  <test thread-count="5" name="TestSuite1">
+    <classes>
+      <class name="org.testing.TestScripts.TestCaseFive"/>
+      <class name="org.testing.TestScripts.TestCaseThree"/>
+      <class name="org.testing.TestScripts.TestCaseTwo"/>
+      <class name="org.testing.TestScripts.TestCaseOne"/>
+      <class name="org.testing.TestScripts.TestCaseFour"/>
+    </classes>
+  </test> <!-- TestSuite1 -->
 </suite> <!-- Suite -->

@@ -2,16 +2,16 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-07-24T19:13:12Z" name="Default suite" finished-at="2019-07-24T19:13:55Z" duration-ms="43552">
+  <suite started-at="2019-07-29T21:07:22Z" name="Default suite" finished-at="2019-07-29T21:08:34Z" duration-ms="72719">
     <groups>
     </groups>
-    <test started-at="2019-07-24T19:13:12Z" name="Default test" finished-at="2019-07-24T19:13:55Z" duration-ms="43552">
+    <test started-at="2019-07-29T21:07:22Z" name="Default test" finished-at="2019-07-29T21:08:34Z" duration-ms="72719">
       <class name="org.testing.TestScripts.TestCaseOne">
-        <test-method is-config="true" signature="bmethod()[pri:0, instance:org.testing.TestScripts.TestCaseOne@3ee0fea4]" started-at="2019-07-25T00:43:12Z" name="bmethod" finished-at="2019-07-25T00:43:26Z" duration-ms="14388" status="PASS">
+        <test-method is-config="true" signature="bmethod()[pri:0, instance:org.testing.TestScripts.TestCaseOne@4b168fa9]" started-at="2019-07-30T02:37:22Z" name="bmethod" finished-at="2019-07-30T02:38:06Z" duration-ms="44035" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmethod -->
-        <test-method signature="test()[pri:0, instance:org.testing.TestScripts.TestCaseOne@3ee0fea4]" started-at="2019-07-25T00:43:26Z" name="test" finished-at="2019-07-25T00:43:55Z" duration-ms="29132" status="PASS">
+        <test-method signature="test()[pri:0, instance:org.testing.TestScripts.TestCaseOne@4b168fa9]" started-at="2019-07-30T02:38:06Z" name="test" finished-at="2019-07-30T02:38:34Z" duration-ms="28659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
