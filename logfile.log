@@ -24,3 +24,9 @@
 2019-08-01 00:35:56 INFO  [TestCaseOne] Assetion Passed with Hard Assertion 
 2019-08-01 00:35:56 INFO  [TestCaseOne] Assetion Passed with soft Assertion 
 2019-08-01 00:36:01 INFO  [TestCaseOne] Email id matches 
+2019-08-06 01:22:36 INFO  [TestCaseOne] Login Success 
+2019-08-06 01:33:43 INFO  [TestCaseOne] Login Success 
+2019-08-06 01:33:46 INFO  [TestCaseOne] Clicked on Trending 
+2019-08-06 01:33:50 INFO  [TestCaseOne] Screnshot Captured 
+2019-08-06 01:33:50 INFO  [TestCaseOne] Assetion Passed with Hard Assertion 
+2019-08-06 01:33:50 INFO  [TestCaseOne] Assetion Passed with soft Assertion 

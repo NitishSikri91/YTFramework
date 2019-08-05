@@ -60,5 +60,6 @@
 	<classpathentry kind="lib" path="C:/Users/Nitish/Downloads/JARS/selenium-2.48.2-20190622T181057Z-001/selenium-2.48.2/selenium-java-2.48.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Nitish/Downloads/JARS/selenium-2.48.2-20190622T181057Z-001/selenium-2.48.2/selenium-java-2.48.2-srcs.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Nitish/Downloads/log4j-1.2.17/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Nitish/Downloads/JARS/jar_files/jxl-2.6.12.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
