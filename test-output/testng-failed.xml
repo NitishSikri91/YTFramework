@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite1]">
-  <test name="Command line test 80ad0e6b-c6a7-47ac-9cda-4f229ecf1ae2(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
     <classes>
-      <class name="org.testing.TestScripts.TestCaseOne">
+      <class name="org.testing.TestScripts.TestCase6">
         <methods>
           <include name="bmethod"/>
-          <include name="test"/>
+          <include name="TC6" invocation-numbers="0 1 2 3"/>
         </methods>
-      </class> <!-- org.testing.TestScripts.TestCaseOne -->
+      </class> <!-- org.testing.TestScripts.TestCase6 -->
     </classes>
-  </test> <!-- Command line test 80ad0e6b-c6a7-47ac-9cda-4f229ecf1ae2(failed) -->
-</suite> <!-- Failed suite [Suite1] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

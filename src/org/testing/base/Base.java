@@ -40,10 +40,10 @@ public class Base {
 	}
 
 	
-	/*@AfterMethod
+	@AfterMethod
 	public void AfterM()
 	{
 		driver.close();
-	}*/
+	}
 	
 }

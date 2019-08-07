@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="org.testing.TestScripts.TestCaseOne">
+      <class name="org.testing.TestScripts.TestCase6">
         <methods>
           <include name="bmethod"/>
-          <include name="test"/>
+          <include name="TC6" invocation-numbers="0 1 2 3"/>
         </methods>
-      </class> <!-- org.testing.TestScripts.TestCaseOne -->
+      </class> <!-- org.testing.TestScripts.TestCase6 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
