@@ -14,7 +14,6 @@ public class ScreenShotCapture {
 		File output = driver.getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(output, new File(path));
 		
-		 
 		
 	}
 	
